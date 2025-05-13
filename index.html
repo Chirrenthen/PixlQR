@@ -1,0 +1,57 @@
+<!-- Code Crafted by Chirrenthen -->
+<!-- Check out my Portfolio https://chirrenthen.netlify.app -->
+<!-- Follow me on Github https://github.com/Chirrenthen -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>PixlQR | Chirrenthen</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="qr-code.png" type="image/x-icon">
+</head>
+<body>
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <div class="text-block">
+        <h1>PixlQR</h1>
+        <p>Effortlessly generate custom QR codes for any link or text.</p>
+        <a href="#generator" class="btn-scroll">Get Started ↓</a>
+      </div>
+      <div class="image-block">
+        <img src="qr-code.png" alt="QR Magic" class="home-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Generator Section -->
+  <section id="generator" class="gen-section">
+    <h2>PixlQR Generator</h2>
+    <div class="generator-content">
+      <div class="input-block">
+        <label for="qr-input"></label>
+        <input type="text" id="qr-input" placeholder="Enter text or URL" required>
+        <button id="generate-btn">Generate QR</button>
+      </div>
+      <div class="output-block">
+        <div class="qr-preview">
+          <img id="qr-img" src="">
+        </div>
+        <button id="download-btn" class="hidden">Download</button>
+      </div>
+    </div>
+    <div id="toast" class="toast hidden">QR Code Generated!</div>
+  </section>
+
+  <footer class="site-footer">
+    <!--<p>Code Crafted with 🩵 by</p><a href="github.com/chirrenthen/PixlQR" style="color: purple;">Chirrenthen</a>-->
+   Code crafted with 🩵 by <a href="https://www.github.com/Chirrenthen/PixlQR" style="color: purple;">Chirrenthen</a>
+    <ul class="social-links">
+      <li><a href="https://github.com/chirrenthen/Qr-Generator">GitHub</a></li>
+      <li><a href="mailto:chirrenthen13@gmail.com">Email</a></li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
