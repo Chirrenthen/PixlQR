@@ -1,4 +1,4 @@
-# PixlQR
+# PixlQR | [Patreon Article](https://www.patreon.com/posts/pixlqr-qr-130919269)
 
 A fast, responsive, and user-friendly QR code generator with a clean UI. Instantly generate QR codes for text or URLs—perfect for personal or professional use. 🌐📱
 
